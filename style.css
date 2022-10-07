@@ -8,7 +8,8 @@ html, body{
 
 .panel{
     min-height: 100vh;
-    position: relative; 
+    width: 100vw;
+    position: relative;
 }
 
 .next-button{
@@ -46,9 +47,10 @@ html, body{
 }
 
 .aal {
-    height: calc(100vh - 100px);
+    height: auto;
     display: flex;
     flex-direction: row;
+    overflow: inherit;
 }
 
 .aalText {
