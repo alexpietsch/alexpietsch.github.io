@@ -3,13 +3,24 @@ html, body{
     margin: 0;
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 
 .panel{
     min-height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
     position: relative;
+}
+
+.panel p{
+    padding-right: 20px;
 }
 
 .next-button{
