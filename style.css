@@ -29,7 +29,6 @@ body {
     right: 50%;
     left: 50%;
     text-decoration: none;
-    animation: bounce 1s infinite;
 }
 .next-button img{
     height: 60px;
@@ -61,7 +60,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: row;
-    overflow: inherit;
+    /* overflow: inherit; */
 }
 
 .aalText {
